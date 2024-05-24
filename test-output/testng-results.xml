@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-24T12:18:50 IST" name="Rest Assured API Test Suite" finished-at="2024-05-24T12:19:04 IST" duration-ms="13687">
+    <groups>
+    </groups>
+    <test started-at="2024-05-24T12:18:50 IST" name="Rest Assured API Automation Test" finished-at="2024-05-24T12:19:04 IST" duration-ms="13687">
+      <class name="api.tests.UserTests">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.tests.UserTests@206ac2e8]" started-at="2024-05-24T12:18:50 IST" name="setupData" finished-at="2024-05-24T12:18:51 IST" duration-ms="1242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testGetAllUsers()[pri:1, instance:api.tests.UserTests@206ac2e8]" started-at="2024-05-24T12:18:51 IST" name="testGetAllUsers" finished-at="2024-05-24T12:19:03 IST" duration-ms="11366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllUsers -->
+        <test-method signature="testGetSingleUser()[pri:2, instance:api.tests.UserTests@206ac2e8]" started-at="2024-05-24T12:19:03 IST" name="testGetSingleUser" finished-at="2024-05-24T12:19:03 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSingleUser -->
+        <test-method signature="testPostCreateUser()[pri:3, instance:api.tests.UserTests@206ac2e8]" started-at="2024-05-24T12:19:03 IST" name="testPostCreateUser" finished-at="2024-05-24T12:19:04 IST" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostCreateUser -->
+      </class> <!-- api.tests.UserTests -->
+    </test> <!-- Rest Assured API Automation Test -->
+  </suite> <!-- Rest Assured API Test Suite -->
+</testng-results>

@@ -1,0 +1,23 @@
+{
+	"endpoint-config": {
+		"testProperty": {
+			"routes": {
+				"fileName": "userRoutes",
+				"filePath": "\\src\\main\\resources\\properties\\"
+			}
+		},
+		"testNgxml": "\\src\\main\\resources\\config\\testng.xml",
+		"testEnvironment": "prod"
+	},
+	"environment-config": {
+		"qa": {
+			"base_url": ""
+		},
+		"uat": {
+			"base_url": ""
+		},
+		"prod": {
+			"base_url": "https://reqres.in"
+		}
+	}
+}
